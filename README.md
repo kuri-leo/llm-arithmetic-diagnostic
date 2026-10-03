@@ -47,6 +47,12 @@ A sample of the generated CSV data looks like this:
 | ... | ... | ... | ... | ... |
 
 
+## 🧪 Experiment Infrastructure
+
+The experiments in our paper were conducted using a separate benchmarking framework:
+
+**🔗 [LLM_reasoning_benchmarking](https://github.com/kuri-leo/LLM_reasoning_benchmarking)** — A benchmarking framework for LLM reasoning evaluation, supporting dual-mode execution (online streaming & OpenAI Batch API), async scheduling, Pydantic v2 data contracts, and append-only JSONL persistence with idempotent resume.
+
 ## ✍️ How to Cite
 
 If you find our work valuable for your research, we would greatly appreciate it if you cite our paper:
